@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(143, 209, 253);
+background:url(https://www.bypeople.com/wp-content/uploads/2015/05/css-gradient-background.png) ;
+background-size: cover;
 }
 .container{
     width: 500px;
@@ -8,13 +9,24 @@ body{
     margin-right: 910px;
     position: relative;
     bottom: 300px;
+    
 }
 .box-1{
 
-font-size: 34px;   
+font-size: 34px;  
+    height: 430px;
+    width: 430px; 
     position: relative;
+    top:-155px;
     bottom: 170px;
     left: 250px;
+    border: 5px ;
+    border-color: red solid;
+    border: 1px solid #dbdbdb;
+    border-radius: 60px;
+    padding: 0px 0px 20px 50px;
+    
+    
 }
 #LOGOIMAGE{
     width: 450px;
@@ -32,6 +44,10 @@ font-size: 34px;
     width: 260px;
     height: 35px;
     border-radius: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 105px;
+    padding-top: 8px;
 
 border-color: rgb(180, 17, 17);
 }
@@ -39,9 +55,9 @@ border-color: rgb(180, 17, 17);
     background-color: rgb(17, 12, 78);
 }
 
-h1{
+.DENAS-POWER{
     color: red;
-    font-size: 60px;
+    font-size: 50px;
     font-family:Arial, Helvetica, sans-serif
 }
 #pwd{
@@ -49,7 +65,8 @@ h1{
   width: 250px;
   height: 25px;
   border-radius: 9px;
-border-color: rgb(180, 17, 17);
+  border-color: rgb(180, 17, 17);
+   background: transparent;
 }
 #email{
     
@@ -57,6 +74,7 @@ border-color: rgb(180, 17, 17);
     width: 250px;
     height: 25px;
     border-color: rgb(180, 17, 17);
+     background: transparent;
 }
 
 .box-1 [for="email"]{
@@ -66,3 +84,68 @@ color: rgb(17, 12, 78);
     color: rgb(17, 12, 78)
     
 }
+#incorrect-pwd{
+    display: none;
+    visibility: visible;
+    color: red;
+    font-size: 20px;
+   }
+
+
+
+
+
+
+
+
+   a {
+    padding: 8px;
+    text-decoration: none;
+  }
+  #navbar ul {
+    list-style: none;
+    padding: 0px;
+  }
+  
+  #navbar {
+    display: flex;
+    justify-content:space-around;
+    height: auto;
+    overflow: visible;
+    line-height: 1.5;
+    list-style: none;
+    background: url(https://st2.depositphotos.com/2124221/46119/i/600/depositphotos_461197360-stock-photo-abstract-multicolored-background-poly-pattern.jpg);
+    
+  }
+  #navbar li {
+    display: inline;
+    font-size: 16px;
+    padding: 50px;
+  }
+  
+  li > a {
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .perdoruesit{
+  
+  }
+  
+  .perdoruesit:hover{
+  
+  
+  
+  }
+  
+  .transporti{
+  
+  
+  }
+  .transporti:hover{
+  
+  }
