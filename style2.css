@@ -39,8 +39,7 @@ color:#fff;
   background-color:#1DC4E7;
   margin-top: 70px;
   padding-top: 30px;
-  position: fixed;
-  left: 0;
+  position:fixed;
   width: 250px;
   height: 100%;
 
@@ -60,28 +59,80 @@ color:#fff;
   margin-bottom: 20px;
   
 }
-.side-bar a{
+.side-bar .main-head {
   
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: block;
   width: 100%;
   list-style: none;
   line-height: 120px;
   font-weight: 700;
-font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   text-decoration:none;
   padding-left: 85px;
+  padding-right: 76px;
   box-sizing:border-box;
   transition: 0.4s;
   transition-property:background;
+
  
  
 }
 
-.side-bar a:hover{
+.side-bar  .main-head:hover{
   background-color: black;
-  color: #fff;
+  color: rgb(255, 255, 255);
   list-style: none;
   text-decoration: underline;
+  width: 100%;
 }
+
+
+.transporti-list{
+
+  display:flex;
  
+  
+  
+}
+
+.transporti{
+  display: flex;
+  
+
+
+  
+}
+.transporti-a{
+ 
+display:flex;
+position: relative;
+
+padding: 0 40px;
+word-spacing:10px;
+padding-top: 53px;
+}
+
+.transporti-a a{
+  padding-left: 72px;
+  padding-right: 72px;
+  text-decoration:none;
+  color:#22242A;
+  padding-bottom: 50px;
+
+}
+  
+.transporti-a{
+  display: none;
+}
+.transporti:hover .transporti-a{
+  display: inline-flex;
+  background-color: rgb(228, 228, 228);
+  
+}
+/*#Data:hover{
+  background-color: aquamarine;
+}
+
+
+
